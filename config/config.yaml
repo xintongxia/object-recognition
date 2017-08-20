@@ -1,0 +1,10 @@
+datasets:
+    training:
+    - name:
+      url:
+    testing:
+    - name:
+      url:
+
+data_raw_dir: assets/data/raw
+data_tfrecords_dir: assets/data/tfrecords
