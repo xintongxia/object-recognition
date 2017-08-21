@@ -11,7 +11,12 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-Run:
+Train:
 ```
-./scripts/run.sh
+./scripts/run.sh train
+```
+
+Serve:
+```
+./scripts/run.sh serve
 ```

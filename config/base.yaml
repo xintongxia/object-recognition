@@ -1,0 +1,8 @@
+datasets:
+- name: bittiger_train
+  url: https://s3-us-west-2.amazonaws.com/us-office/competition/training.zip
+- name: bittiger_test
+  url: https://s3-us-west-2.amazonaws.com/us-office/competition/testing.zip
+
+data_raw_dir: assets/data/raw
+data_tfrecords_dir: assets/data/tfrecords

@@ -1,10 +1,10 @@
-datasets:
-    training:
-    - name:
-      url:
-    testing:
-    - name:
-      url:
+train:
+    train_sets:
+    - bittiger_train
+    test_sets:
+    - bittiger_test
 
-data_raw_dir: assets/data/raw
-data_tfrecords_dir: assets/data/tfrecords
+serve:
+    model: foo
+
+logging: debug
